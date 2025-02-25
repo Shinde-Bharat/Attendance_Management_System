@@ -33,7 +33,7 @@ The Attendance Management System is a web-based application designed to help org
 ## 🚀 Installation
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/attendance-management-system.git
+   git clone https://github.com/Shinde-Bharat/attendance-management-system.git
    ```
 2. Import the MySQL database from `database.sql`.
 3. Configure database connection in `process/dbh.php`.
@@ -48,7 +48,7 @@ The Attendance Management System is a web-based application designed to help org
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## 📞 Contact
-For any questions, please contact [Your Email].
+For any questions, please contact [bharata2003@gmail.com].
 
 ---
 
