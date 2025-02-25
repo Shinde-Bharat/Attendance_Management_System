@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>AMS</h1>
+			<ul id="navli">
+				
+				<li><a class="homered" href="index.html">Admin Login</a></li>
+				<li><a class="homeblack" href="aboutus.html">ABOUT US</a></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+
+	<div class="loginbox">
+        <h1>Login Here</h1><br><br>
+        <form action="process/aprocess.php" method="POST">
+            <p>Email</p>
+            <input type="text" name="mailuid" placeholder="Enter Email Address" required="required">
+            <p>Password</p>
+            <input type="password" name="pwd" placeholder="Enter Password" required="required">
+            <input type="submit" name="login-submit" value="Login">
+           
+        </form>
+        
+    </div>
+</body>
+</html>
